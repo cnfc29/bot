@@ -1,0 +1,58 @@
+.menuList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  background-color: #18283c;
+}
+
+.menuButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+}
+
+img.img {
+  width: 30px;
+  height: 30px;
+}
+
+.text {
+  color: #4d6078;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.text.active {
+  color: white;
+}
+
+@media screen and (max-width: 375px) {
+  .text {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  img.img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.num {
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #fb9818;
+  border-radius: 50%;
+  padding: 2% 5%;
+  text-align: center;
+  top: 2%;
+  right: 27%;
+}

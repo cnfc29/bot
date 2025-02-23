@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0% 5% 7%;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.price {
+  color: white;
+  font-size: 35px;
+}
+
+.balanceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+
+img.img {
+  width: 20px;
+  height: 20px;
+}
+
+.textBalance {
+  color: white !important;
+  padding-left: 10px;
+}
+
+.priceItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  align-self: flex-start;
+}

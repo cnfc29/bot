@@ -1,0 +1,21 @@
+.timeContainer {
+  padding: 4%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.buttonsList {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

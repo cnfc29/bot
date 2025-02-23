@@ -1,0 +1,15 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8% 5% 8%;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+img.img {
+  width: 20px;
+  height: 20px;
+}

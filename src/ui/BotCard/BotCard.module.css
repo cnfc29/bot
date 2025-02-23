@@ -1,0 +1,85 @@
+.botCardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b293e;
+  border-radius: 5%;
+  position: relative;
+}
+
+.botCardContainer.active {
+  background: radial-gradient(circle, #1b293e 40%, #1a3450 100%);
+}
+
+.type {
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.plus {
+  color: #5ea853;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.minus {
+  color: #ee427d;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+img.img {
+  width: 60px;
+  height: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  img.img {
+    width: 40px;
+    height: 30px;
+  }
+}
+
+img.arrowGr {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  top: 40%;
+  left: 80%;
+  object-fit: contain;
+}
+
+img.arrowRed {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  top: 40%;
+  right: 80%;
+  object-fit: contain;
+}
+
+img.arrowOr {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  top: 80%;
+  left: 76%;
+  object-fit: contain;
+}
+
+img.arrowBl {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  top: 80%;
+  right: 82%;
+  object-fit: contain;
+}
