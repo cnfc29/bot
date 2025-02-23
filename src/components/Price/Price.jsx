@@ -1,6 +1,6 @@
 import styles from "./Price.module.css";
 import data from "../../../data.min.json";
-import priceIcon from "@image/balance/слой_18.png";
+import priceIcon from "@image/Bots/1.png";
 
 export function Price() {
   return (
