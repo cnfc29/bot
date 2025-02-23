@@ -1,25 +1,30 @@
 import styles from "./Menu.module.css";
+import Dashboard from "@image/Tool_bar/1/1.png";
+import Megabot from "@image/Tool_bar/2/2.png";
+import BotMarket from "@image/Tool_bar/3/3.png";
+import CoinPrices from "@image/Tool_bar/4/4.png";
+import Profile from "@image/Tool_bar/5/5.png";
 export function Menu() {
   const menuButtons = [
     {
       name: "Dashboard",
-      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/1/1.png",
+      icon: Dashboard,
     },
     {
       name: "Megabot",
-      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/2/2.png",
+      icon: Megabot,
     },
     {
       name: "Bot market",
-      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/3/3.png",
+      icon: BotMarket,
     },
     {
       name: "Coin prices",
-      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/4/4.png",
+      icon: CoinPrices,
     },
     {
-      name: "Ptofile",
-      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/5/5.png",
+      name: "Profile",
+      icon: Profile,
     },
   ];
   return (
@@ -32,7 +37,7 @@ export function Menu() {
           ) : (
             <div className={styles.text}>{btn.name}</div>
           )}
-          {btn.name === "Ptofile" && <div className={styles.num}>3</div>}
+          {btn.name === "Profile" && <div className={styles.num}>3</div>}
         </div>
       ))}
     </div>
