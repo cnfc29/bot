@@ -3,23 +3,23 @@ export function Menu() {
   const menuButtons = [
     {
       name: "Dashboard",
-      icon: "/src/assets/psd_exported_to_image_layers/layers/Tool_bar/1/1.png",
+      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/1/1.png",
     },
     {
       name: "Megabot",
-      icon: "/src/assets/psd_exported_to_image_layers/layers/Tool_bar/2/2.png",
+      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/2/2.png",
     },
     {
       name: "Bot market",
-      icon: "/src/assets/psd_exported_to_image_layers/layers/Tool_bar/3/3.png",
+      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/3/3.png",
     },
     {
       name: "Coin prices",
-      icon: "/src/assets/psd_exported_to_image_layers/layers/Tool_bar/4/4.png",
+      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/4/4.png",
     },
     {
       name: "Ptofile",
-      icon: "/src/assets/psd_exported_to_image_layers/layers/Tool_bar/5/5.png",
+      icon: "./src/assets/psd_exported_to_image_layers/layers/Tool_bar/5/5.png",
     },
   ];
   return (
